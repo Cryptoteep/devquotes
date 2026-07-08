@@ -1,0 +1,1256 @@
+[
+  {
+    "id": "knuth-premature-optimization",
+    "text": "Premature optimization is the root of all evil.",
+    "author": "Donald Knuth",
+    "source": "The Art of Computer Programming, Vol. 1",
+    "year": 1968,
+    "category": "programming",
+    "tags": ["optimization", "performance", "classic"]
+  },
+  {
+    "id": "dijkstra-simplicity",
+    "text": "Simplicity is prerequisite for reliability.",
+    "author": "Edsger W. Dijkstra",
+    "source": "EWD898",
+    "year": 1984,
+    "category": "simplicity",
+    "tags": ["simplicity", "reliability", "design"]
+  },
+  {
+    "id": "dijkstra-computer-science",
+    "text": "Computer science is no more about computers than astronomy is about telescopes.",
+    "author": "Edsger W. Dijkstra",
+    "year": 1970,
+    "category": "philosophy",
+    "tags": ["cs", "foundations", "famous"]
+  },
+  {
+    "id": "torvalds-bad-programmer",
+    "text": "Bad programmers worry about the code. Good programmers worry about data and its relationships.",
+    "author": "Linus Torvalds",
+    "source": "linux-kernel mailing list",
+    "year": 2006,
+    "category": "architecture",
+    "tags": ["data", "design", "linux"]
+  },
+  {
+    "id": "kernighan-debugging",
+    "text": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+    "author": "Brian Kernighan",
+    "source": "The Elements of Programming Style",
+    "year": 1978,
+    "category": "debugging",
+    "tags": ["debugging", "cleverness", "classic"]
+  },
+  {
+    "id": "kernighan-naming",
+    "text": "Controlling complexity is the essence of computer programming.",
+    "author": "Brian Kernighan",
+    "source": "Software Tools",
+    "year": 1976,
+    "category": "simplicity",
+    "tags": ["complexity", "design"]
+  },
+  {
+    "id": "hoare-premature",
+    "text": "There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.",
+    "author": "C.A.R. Hoare",
+    "source": "The Emperor's Old Clothes",
+    "year": 1980,
+    "category": "architecture",
+    "tags": ["design", "simplicity", "complexity"]
+  },
+  {
+    "id": "perlis-epigrams-1",
+    "text": "A program is like a poem: you cannot write a poem without writing it.",
+    "author": "Alan J. Perlis",
+    "source": "Epigrams on Programming",
+    "year": 1982,
+    "category": "philosophy",
+    "tags": ["craft", "writing"]
+  },
+  {
+    "id": "perlis-lazy",
+    "text": "If you have a procedure with ten parameters, you probably missed some.",
+    "author": "Alan J. Perlis",
+    "source": "Epigrams on Programming",
+    "year": 1982,
+    "category": "wisdom",
+    "tags": ["api", "design", "humor"]
+  },
+  {
+    "id": "thompson-shell",
+    "text": "When I designed the shell, I knew I wanted it to be a programming language.",
+    "author": "Ken Thompson",
+    "source": "Interview, Unix Review",
+    "year": 1989,
+    "category": "unix",
+    "tags": ["shell", "unix", "design"]
+  },
+  {
+    "id": "ritchie-unix",
+    "text": "Unix is very simple, it just needs a genius to understand its simplicity.",
+    "author": "Dennis Ritchie",
+    "year": 1987,
+    "category": "unix",
+    "tags": ["unix", "simplicity"]
+  },
+  {
+    "id": "pike-notes",
+    "text": "Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident.",
+    "author": "Rob Pike",
+    "source": "Notes on Programming in C",
+    "year": 1989,
+    "category": "architecture",
+    "tags": ["data", "algorithms"]
+  },
+  {
+    "id": "raymond-cathedral",
+    "text": "Given enough eyeballs, all bugs are shallow.",
+    "author": "Eric S. Raymond",
+    "source": "The Cathedral and the Bazaar",
+    "year": 1997,
+    "category": "teams",
+    "tags": ["opensource", "bugs", "collaboration"]
+  },
+  {
+    "id": "stallman-free-software",
+    "text": "Free software is a matter of liberty, not price. To understand the concept, you should think of free as in free speech, not as in free beer.",
+    "author": "Richard Stallman",
+    "source": "The Free Software Definition",
+    "year": 1996,
+    "category": "philosophy",
+    "tags": ["foss", "freedom", "classic"]
+  },
+  {
+    "id": "sussman-hack",
+    "text": "The programs that we use to build programs are themselves programs, and they are built by people. There is no magic.",
+    "author": "Gerald Sussman",
+    "year": 1986,
+    "category": "philosophy",
+    "tags": ["compilers", "tools", "foundations"]
+  },
+  {
+    "id": "mccarthy-lisp",
+    "text": "Lisp isn't a language, it's a building material.",
+    "author": "John McCarthy",
+    "year": 1960,
+    "category": "philosophy",
+    "tags": ["lisp", "languages"]
+  },
+  {
+    "id": "backus-fp",
+    "text": "The von Neumann bottleneck has been the major limiting factor in computer performance over the last forty years.",
+    "author": "John Backus",
+    "source": "Can Programming Be Liberated from the von Neumann Style?",
+    "year": 1977,
+    "category": "architecture",
+    "tags": ["architecture", "functional", "turing-award"]
+  },
+  {
+    "id": "fred-brooks-mythical",
+    "text": "Adding manpower to a late software project makes it later.",
+    "author": "Fred Brooks",
+    "source": "The Mythical Man-Month",
+    "year": 1975,
+    "category": "teams",
+    "tags": ["management", "classic", "brookslaw"]
+  },
+  {
+    "id": "brooks-conceptual-integrity",
+    "text": "Conceptual integrity is the most important consideration in system design.",
+    "author": "Fred Brooks",
+    "source": "The Mythical Man-Month",
+    "year": 1975,
+    "category": "architecture",
+    "tags": ["design", "integrity", "classic"]
+  },
+  {
+    "id": "ackers-9-women",
+    "text": "The bearing of a child takes nine months, no matter how many women are assigned.",
+    "author": "Fred Brooks",
+    "source": "The Mythical Man-Month",
+    "year": 1975,
+    "category": "teams",
+    "tags": ["management", "humor", "classic"]
+  },
+  {
+    "id": "knuth-literate",
+    "text": "Let us change our traditional attitude to the construction of programs: instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.",
+    "author": "Donald Knuth",
+    "source": "Literate Programming",
+    "year": 1984,
+    "category": "programming",
+    "tags": ["documentation", "literate", "readability"]
+  },
+  {
+    "id": "hopper-bugs",
+    "text": "From then on, when anything went wrong with a computer, we said it had bugs in it.",
+    "author": "Grace Hopper",
+    "year": 1947,
+    "category": "debugging",
+    "tags": ["history", "bugs", "origin"]
+  },
+  {
+    "id": "hopper-future",
+    "text": "The most dangerous phrase in the language is, 'We've always done it this way.'",
+    "author": "Grace Hopper",
+    "year": 1976,
+    "category": "wisdom",
+    "tags": ["innovation", "change", "leadership"]
+  },
+  {
+    "id": "hamming-impact",
+    "text": "If you don't work on important problems, it's not likely that you'll do important work.",
+    "author": "Richard Hamming",
+    "source": "You and Your Research",
+    "year": 1986,
+    "category": "wisdom",
+    "tags": ["research", "impact", "career"]
+  },
+  {
+    "id": "hamming-luck",
+    "text": "Luck favors the prepared mind.",
+    "author": "Louis Pasteur",
+    "source": "as quoted by Richard Hamming",
+    "year": 1854,
+    "category": "wisdom",
+    "tags": ["preparation", "luck"]
+  },
+  {
+    "id": "antopol-story",
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute.",
+    "author": "Harold Abelson",
+    "source": "Structure and Interpretation of Computer Programs",
+    "year": 1985,
+    "category": "programming",
+    "tags": ["readability", "classic", "sicp"]
+  },
+  {
+    "id": "sussman-sicp",
+    "text": "Programs are meant to be read by humans and only incidentally for computers to execute.",
+    "author": "Gerald Sussman",
+    "source": "SICP",
+    "year": 1985,
+    "category": "programming",
+    "tags": ["readability", "sicp"]
+  },
+  {
+    "id": "carmack-deep",
+    "text": "Sometimes, the elegant implementation is just a function. Not a method. Not a class. Not a framework. Just a function.",
+    "author": "John Carmack",
+    "year": 2012,
+    "category": "simplicity",
+    "tags": ["simplicity", "functions", "design"]
+  },
+  {
+    "id": "carmack-story",
+    "text": "Story of my life: focused on the wrong problem.",
+    "author": "John Carmack",
+    "year": 2017,
+    "category": "wisdom",
+    "tags": ["focus", "problems"]
+  },
+  {
+    "id": "carmack-done",
+    "text": "It is much harder to make a complete, polished product than it is to make a cool demo.",
+    "author": "John Carmack",
+    "year": 2010,
+    "category": "wisdom",
+    "tags": ["shipping", "craft", "products"]
+  },
+  {
+    "id": "spolsky-architecture",
+    "text": "Architecture is the decisions that you wish you could get right early in a project.",
+    "author": "Ralph Johnson",
+    "source": "as quoted by Joel Spolsky",
+    "year": 2002,
+    "category": "architecture",
+    "tags": ["architecture", "decisions"]
+  },
+  {
+    "id": "spolsky-leaky",
+    "text": "All non-trivial abstractions, to some degree, are leaky.",
+    "author": "Joel Spolsky",
+    "source": "The Law of Leaky Abstractions",
+    "year": 2002,
+    "category": "architecture",
+    "tags": ["abstraction", "laws"]
+  },
+  {
+    "id": "atawood-laws",
+    "text": "The First Law of Programming: any sufficiently advanced code is indistinguishable from magic. The Second Law: it isn't.",
+    "author": "Jeff Atwood",
+    "year": 2009,
+    "category": "humor",
+    "tags": ["magic", "humor"]
+  },
+  {
+    "id": "atwood-code-smell",
+    "text": "Code is read more often than it is written.",
+    "author": "Jeff Atwood",
+    "year": 2009,
+    "category": "programming",
+    "tags": ["readability", "maintenance"]
+  },
+  {
+    "id": "fowler-duplication",
+    "text": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "author": "Martin Fowler",
+    "source": "Refactoring",
+    "year": 1999,
+    "category": "programming",
+    "tags": ["readability", "refactoring", "classic"]
+  },
+  {
+    "id": "fowler-when",
+    "text": "When you feel the need to write a comment, first try to refactor the code so that the comment becomes superfluous.",
+    "author": "Martin Fowler",
+    "source": "Refactoring",
+    "year": 1999,
+    "category": "programming",
+    "tags": ["comments", "refactoring"]
+  },
+  {
+    "id": "beck-simple",
+    "text": "Make it work, make it right, make it fast.",
+    "author": "Kent Beck",
+    "year": 1999,
+    "category": "programming",
+    "tags": ["tdd", "process", "classic"]
+  },
+  {
+    "id": "beck-fear",
+    "text": "I'm not a great programmer; I'm just a good programmer with great habits.",
+    "author": "Kent Beck",
+    "year": 2004,
+    "category": "wisdom",
+    "tags": ["habits", "craft"]
+  },
+  {
+    "id": "cunningham-debt",
+    "text": "Shipping first-time code is like going into debt. A little debt speeds development so long as it is paid back promptly.",
+    "author": "Ward Cunningham",
+    "year": 1992,
+    "category": "architecture",
+    "tags": ["techdebt", "classic"]
+  },
+  {
+    "id": "hunt-pragmatic",
+    "text": "The Pragmatic Programmer: fix the problem, not the blame.",
+    "author": "Andy Hunt",
+    "source": "The Pragmatic Programmer",
+    "year": 1999,
+    "category": "wisdom",
+    "tags": ["attitude", "teamwork"]
+  },
+  {
+    "id": "thomas-broken-windows",
+    "text": "Don't leave broken windows.",
+    "author": "Andy Hunt",
+    "source": "The Pragmatic Programmer",
+    "year": 1999,
+    "category": "programming",
+    "tags": ["quality", "maintenance"]
+  },
+  {
+    "id": "mccarthy-context",
+    "text": "It is better to have 100 functions operate on one data structure than 10 functions on 10 data structures.",
+    "author": "Alan J. Perlis",
+    "source": "Epigrams on Programming",
+    "year": 1982,
+    "category": "architecture",
+    "tags": ["data", "lisp"]
+  },
+  {
+    "id": "duffs-device",
+    "text": "Code generation, like drinking, is best done in moderation.",
+    "author": "Tom Duff",
+    "year": 1983,
+    "category": "humor",
+    "tags": ["codegen", "humor"]
+  },
+  {
+    "id": "nagle-ego",
+    "text": "Egoless programming is a philosophy where a programmer's ego is decoupled from the code they write.",
+    "author": "Jerry Weinberg",
+    "source": "The Psychology of Computer Programming",
+    "year": 1971,
+    "category": "teams",
+    "tags": ["ego", "code-review"]
+  },
+  {
+    "id": "weinberg-clever",
+    "text": "If programmers are ego-involved with their programs, they are unlikely to improve.",
+    "author": "Jerry Weinberg",
+    "source": "The Psychology of Computer Programming",
+    "year": 1971,
+    "category": "wisdom",
+    "tags": ["ego", "growth"]
+  },
+  {
+    "id": "darwin-watch",
+    "text": "It has long been an axiom of mine that the little things are infinitely the most important.",
+    "author": "Charles Darwin",
+    "year": 1890,
+    "category": "wisdom",
+    "tags": ["details", "craft"]
+  },
+  {
+    "id": "salus-history",
+    "text": "Those who don't understand Unix are condemned to reinvent it, poorly.",
+    "author": "Henry Spencer",
+    "year": 1987,
+    "category": "unix",
+    "tags": ["unix", "reinvention"]
+  },
+  {
+    "id": "spencer-640k",
+    "text": "640K ought to be enough for anybody.",
+    "author": "Bill Gates",
+    "year": 1981,
+    "category": "humor",
+    "tags": ["apocryphal", "memory", "humor"]
+  },
+  {
+    "id": "wheeler-all-problems",
+    "text": "All problems in computer science can be solved by another level of indirection, except for the problem of too many layers of indirection.",
+    "author": "David Wheeler",
+    "year": 1970,
+    "category": "architecture",
+    "tags": ["indirection", "abstraction", "classic"]
+  },
+  {
+    "id": "kay-objects",
+    "text": "I made up the term object-oriented, and I can tell you I did not have C++ in mind.",
+    "author": "Alan Kay",
+    "year": 1997,
+    "category": "philosophy",
+    "tags": ["oop", "smalltalk", "messaging"]
+  },
+  {
+    "id": "kay-messaging",
+    "text": "The big idea is 'messaging'. The key in making great and growable systems is much more to design how its modules communicate rather than what their internal properties and behaviors should be.",
+    "author": "Alan Kay",
+    "source": "Squeak mailing list",
+    "year": 1998,
+    "category": "architecture",
+    "tags": ["messaging", "modules", "design"]
+  },
+  {
+    "id": "gabriel-worse",
+    "text": "Worse is better.",
+    "author": "Richard P. Gabriel",
+    "source": "Lisp: Good News, Bad News, How to Win Big",
+    "year": 1989,
+    "category": "philosophy",
+    "tags": ["worse-is-better", "unix", "design"]
+  },
+  {
+    "id": "seibel-yegge",
+    "text": "I think the way to become a better programmer is to read good code, write good code, and read about writing good code.",
+    "author": "Steve Yegge",
+    "year": 2008,
+    "category": "wisdom",
+    "tags": ["practice", "learning"]
+  },
+  {
+    "id": "alt-joke",
+    "text": "There are only two hard things in Computer Science: cache invalidation and naming things.",
+    "author": "Phil Karlton",
+    "year": 1996,
+    "category": "humor",
+    "tags": ["naming", "cache", "classic"]
+  },
+  {
+    "id": "zato-bugs",
+    "text": "99 little bugs in the code, 99 little bugs in the code. Take one down, patch it around, 127 little bugs in the code.",
+    "author": "Anonymous",
+    "year": 1995,
+    "category": "humor",
+    "tags": ["bugs", "song", "classic"]
+  },
+  {
+    "id": "murphy-90-90",
+    "text": "The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
+    "author": "Tom Cargill",
+    "source": "Bell Labs, quoted by Jon Bentley",
+    "year": 1985,
+    "category": "humor",
+    "tags": ["estimation", "ninety-ninety", "classic"]
+  },
+  {
+    "id": "north-iverson",
+    "text": "The cliché of the 80s, 'knowledge is power', was never truer than in programming.",
+    "author": "Kenneth Iverson",
+    "source": "Notation as a Tool of Thought",
+    "year": 1980,
+    "category": "philosophy",
+    "tags": ["notation", "apl", "turing-award"]
+  },
+  {
+    "id": "liskov-abstraction",
+    "text": "Abstraction is a technique that helps us manage complexity, but it is not a substitute for understanding.",
+    "author": "Barbara Liskov",
+    "year": 1987,
+    "category": "architecture",
+    "tags": ["abstraction", "understanding"]
+  },
+  {
+    "id": "englebart-augment",
+    "text": "The possibilities of the computer for augmenting human intellect are unlimited.",
+    "author": "Douglas Engelbart",
+    "source": "Augmenting Human Intellect",
+    "year": 1962,
+    "category": "philosophy",
+    "tags": ["augmentation", "vision", "foundations"]
+  },
+  {
+    "id": "turing-intelligence",
+    "text": "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+    "author": "Alan Turing",
+    "source": "Computing Machinery and Intelligence",
+    "year": 1950,
+    "category": "ai",
+    "tags": ["ai", "vision", "classic"]
+  },
+  {
+    "id": "mccarthy-ai",
+    "text": "Every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it.",
+    "author": "John McCarthy",
+    "source": "Proposal for the Dartmouth Summer Research Project on AI",
+    "year": 1955,
+    "category": "ai",
+    "tags": ["ai", "dartmouth", "foundations"]
+  },
+  {
+    "id": "minsky-easy",
+    "text": "Easy things are often hard.",
+    "author": "Marvin Minsky",
+    "year": 1986,
+    "category": "wisdom",
+    "tags": ["difficulty", "perception"]
+  },
+  {
+    "id": "sussman-mccarthy",
+    "text": "If you just learn a single trick, Scout, you'll get along a lot better with all kinds of folks. You never really understand a person until you consider things from his point of view.",
+    "author": "Atticus Finch",
+    "source": "To Kill a Mockingbird",
+    "year": 1960,
+    "category": "wisdom",
+    "tags": ["empathy", "perspective"]
+  },
+  {
+    "id": "sutherland-scrum",
+    "text": "Done is better than perfect, but done right is even better.",
+    "author": "Jeff Sutherland",
+    "year": 2001,
+    "category": "teams",
+    "tags": ["scrum", "agile", "shipping"]
+  },
+  {
+    "id": "feathers-legacy",
+    "text": "Legacy code is code without tests.",
+    "author": "Michael Feathers",
+    "source": "Working Effectively with Legacy Code",
+    "year": 2004,
+    "category": "programming",
+    "tags": ["testing", "legacy"]
+  },
+  {
+    "id": "martin-clean",
+    "text": "The only way to go fast, is to go well.",
+    "author": "Robert C. Martin",
+    "source": "Clean Code",
+    "year": 2008,
+    "category": "programming",
+    "tags": ["craft", "speed", "quality"]
+  },
+  {
+    "id": "martin-boy-scout",
+    "text": "Leave the code a little cleaner than you found it.",
+    "author": "Robert C. Martin",
+    "source": "Clean Code",
+    "year": 2008,
+    "category": "programming",
+    "tags": ["maintenance", "craft", "boyscout"]
+  },
+  {
+    "id": "hickey-simple",
+    "text": "Simple is not easy. Simple is not uncomplicated. Simple is the opposite of complex.",
+    "author": "Rich Hickey",
+    "source": "Simple Made Easy",
+    "year": 2011,
+    "category": "simplicity",
+    "tags": ["simplicity", "clojure", "design"]
+  },
+  {
+    "id": "hickey-complect",
+    "text": "When you are complecting, you are braiding things together.",
+    "author": "Rich Hickey",
+    "source": "Simple Made Easy",
+    "year": 2011,
+    "category": "simplicity",
+    "tags": ["clojure", "design", "vocabulary"]
+  },
+  {
+    "id": "hickey-hammock",
+    "text": "You should spend more time in the hammock. The hammock is where good design happens.",
+    "author": "Rich Hickey",
+    "source": "Hammock Driven Development",
+    "year": 2010,
+    "category": "wisdom",
+    "tags": ["design", "thinking"]
+  },
+  {
+    "id": "ostohertzfeld-memory",
+    "text": "It's better to be approximately right than precisely wrong.",
+    "author": "Warren Buffett",
+    "year": 1990,
+    "category": "wisdom",
+    "tags": ["estimation", "approximation"]
+  },
+  {
+    "id": "jobs-stay-hungry",
+    "text": "Stay hungry. Stay foolish.",
+    "author": "Steve Jobs",
+    "source": "Stanford Commencement Address",
+    "year": 2005,
+    "category": "wisdom",
+    "tags": ["motivation", "career"]
+  },
+  {
+    "id": "jobs-connect",
+    "text": "You can't connect the dots looking forward; you can only connect them looking backwards.",
+    "author": "Steve Jobs",
+    "source": "Stanford Commencement Address",
+    "year": 2005,
+    "category": "wisdom",
+    "tags": ["career", "perspective"]
+  },
+  {
+    "id": "stroustrup-cpp",
+    "text": "C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do, it blows away your whole leg.",
+    "author": "Bjarne Stroustrup",
+    "year": 1986,
+    "category": "humor",
+    "tags": ["c", "cpp", "safety"]
+  },
+  {
+    "id": "stroustrup-zero",
+    "text": "There are only two kinds of languages: the ones people complain about and the ones nobody uses.",
+    "author": "Bjarne Stroustrup",
+    "year": 2014,
+    "category": "philosophy",
+    "tags": ["languages", "classic"]
+  },
+  {
+    "id": "vieira-perl",
+    "text": "There is more than one way to do it.",
+    "author": "Larry Wall",
+    "source": "Programming Perl",
+    "year": 1991,
+    "category": "philosophy",
+    "tags": ["perl", "timtowtdi"]
+  },
+  {
+    "id": "matz-ruby",
+    "text": "I wanted to minimize my frustration with programming, because that's my primary goal. I want to have fun.",
+    "author": "Yukihiro Matsumoto",
+    "source": "Bliki interview",
+    "year": 2003,
+    "category": "philosophy",
+    "tags": ["ruby", "fun", "design"]
+  },
+  {
+    "id": "matz-developer-happiness",
+    "text": "Programmers often feel joy when they can concentrate on the creative side of programming, so Ruby is designed to make programmers happy.",
+    "author": "Yukihiro Matsumoto",
+    "year": 2008,
+    "category": "philosophy",
+    "tags": ["ruby", "happiness", "design"]
+  },
+  {
+    "id": "lattner-swift",
+    "text": "Code is a communication mechanism. It tells the computer what to do, but more importantly, it tells the next programmer what you were thinking.",
+    "author": "Chris Lattner",
+    "year": 2014,
+    "category": "programming",
+    "tags": ["communication", "readability"]
+  },
+  {
+    "id": "meyer-design",
+    "text": "Software engineering is the part of computer science that is too difficult for computer scientists.",
+    "author": "Bertrand Meyer",
+    "year": 2000,
+    "category": "humor",
+    "tags": ["engineering", "humor"]
+  },
+  {
+    "id": "taleb-skin",
+    "text": "If you do not take risks for your opinion, you are nothing.",
+    "author": "Nassim Nicholas Taleb",
+    "year": 2012,
+    "category": "wisdom",
+    "tags": ["risk", "conviction"]
+  },
+  {
+    "id": "engelbart-mother",
+    "text": "The digital revolution is far more significant than the invention of writing or even of printing.",
+    "author": "Douglas Engelbart",
+    "year": 1995,
+    "category": "philosophy",
+    "tags": ["revolution", "history"]
+  },
+  {
+    "id": "raskin-modeless",
+    "text": "As far as the user is concerned, the interface is the product.",
+    "author": "Jef Raskin",
+    "source": "The Humane Interface",
+    "year": 2000,
+    "category": "architecture",
+    "tags": ["ux", "interface"]
+  },
+  {
+    "id": "kay-done",
+    "text": "Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.",
+    "author": "Alan Kay",
+    "year": 2012,
+    "category": "architecture",
+    "tags": ["structure", "critique"]
+  },
+  {
+    "id": "kay-vision",
+    "text": "The best way to predict the future is to invent it.",
+    "author": "Alan Kay",
+    "source": "PARC",
+    "year": 1971,
+    "category": "wisdom",
+    "tags": ["future", "innovation", "classic"]
+  },
+  {
+    "id": "kernighan-questions",
+    "text": "A little inaccuracy can sometimes save a ton of explanation.",
+    "author": "H. H. Munro",
+    "year": 1900,
+    "category": "wisdom",
+    "tags": ["communication", "approximation"]
+  },
+  {
+    "id": "wirth-languages",
+    "text": "Programs = Algorithms + Data Structures.",
+    "author": "Niklaus Wirth",
+    "source": "Algorithms + Data Structures = Programs",
+    "year": 1976,
+    "category": "architecture",
+    "tags": ["algorithms", "data", "classic"]
+  },
+  {
+    "id": "wirth-systems",
+    "text": "The clear separation of algorithms and data structures is essential to good program design.",
+    "author": "Niklaus Wirth",
+    "year": 1976,
+    "category": "architecture",
+    "tags": ["design", "separation"]
+  },
+  {
+    "id": "wheeler-productivity",
+    "text": "Before software can be reusable it first has to be usable.",
+    "author": "Ralph Johnson",
+    "year": 1995,
+    "category": "architecture",
+    "tags": ["reuse", "usability"]
+  },
+  {
+    "id": "hunt-orthogonal",
+    "text": "Don't program by coincidence.",
+    "author": "Andy Hunt",
+    "source": "The Pragmatic Programmer",
+    "year": 1999,
+    "category": "programming",
+    "tags": ["mindfulness", "craft"]
+  },
+  {
+    "id": "uncle-bob-stable",
+    "text": "The Boy Scout Rule: Leave the campground cleaner than you found it.",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "category": "teams",
+    "tags": ["craft", "maintenance", "boyscout"]
+  },
+  {
+    "id": "docker-cattle",
+    "text": "Treat your servers like cattle, not pets.",
+    "author": "Bill Baker",
+    "source": "as quoted by Microsoft",
+    "year": 2012,
+    "category": "architecture",
+    "tags": ["devops", "servers", "cloud"]
+  },
+  {
+    "id": "sussman-knowledge",
+    "text": "The computer is a medium for expressing our understanding of complex phenomena.",
+    "author": "Gerald Sussman",
+    "year": 1986,
+    "category": "philosophy",
+    "tags": ["modeling", "understanding"]
+  },
+  {
+    "id": "ramachandran-soft",
+    "text": "Software is eating the world.",
+    "author": "Marc Andreessen",
+    "source": "Wall Street Journal",
+    "year": 2011,
+    "category": "philosophy",
+    "tags": ["industry", "future"]
+  },
+  {
+    "id": "iverson-notation",
+    "text": "The utility of a language as a tool of thought increases with the range of topics it can treat.",
+    "author": "Kenneth Iverson",
+    "source": "Notation as a Tool of Thought",
+    "year": 1980,
+    "category": "philosophy",
+    "tags": ["notation", "languages", "turing-award"]
+  },
+  {
+    "id": "chaitin-randomness",
+    "text": "In the long run, the best way to make progress is to keep your design simple.",
+    "author": "Gregory Chaitin",
+    "year": 2005,
+    "category": "simplicity",
+    "tags": ["design", "progress"]
+  },
+  {
+    "id": "lucas-compiler",
+    "text": "Compilers are the bridge between human thought and machine execution.",
+    "author": "Barbara Liskov",
+    "year": 1990,
+    "category": "philosophy",
+    "tags": ["compilers", "abstraction"]
+  },
+  {
+    "id": "weinberg-law",
+    "text": "No matter what the problem is, it's always a people problem.",
+    "author": "Jerry Weinberg",
+    "source": "The Secrets of Consulting",
+    "year": 1985,
+    "category": "teams",
+    "tags": ["people", "consulting", "classic"]
+  },
+  {
+    "id": "conway-law",
+    "text": "Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.",
+    "author": "Melvin Conway",
+    "year": 1967,
+    "category": "architecture",
+    "tags": ["conwaylaw", "organization", "classic"]
+  },
+  {
+    "id": "brooks-tower",
+    "text": "The programmer, like the poet, works only slightly removed from pure thought-stuff.",
+    "author": "Fred Brooks",
+    "source": "The Mythical Man-Month",
+    "year": 1975,
+    "category": "philosophy",
+    "tags": ["craft", "poetry"]
+  },
+  {
+    "id": "hoare-quicksort",
+    "text": "I would have to say that Quicksort was my first really good idea.",
+    "author": "C.A.R. Hoare",
+    "year": 2009,
+    "category": "wisdom",
+    "tags": ["quicksort", "algorithms"]
+  },
+  {
+    "id": "sedgewick-algorithms",
+    "text": "Good algorithms are the closest thing we have to magic in computer science.",
+    "author": "Robert Sedgewick",
+    "year": 2012,
+    "category": "wisdom",
+    "tags": ["algorithms", "magic"]
+  },
+  {
+    "id": "postel-law",
+    "text": "Be conservative in what you do, be liberal in what you accept from others.",
+    "author": "Jon Postel",
+    "source": "RFC 760",
+    "year": 1980,
+    "category": "architecture",
+    "tags": ["postel", "robustness", "classic"]
+  },
+  {
+    "id": "selinger-errors",
+    "text": "Errors using inadequate data are much less than those using no data at all.",
+    "author": "Charles Babbage",
+    "year": 1832,
+    "category": "wisdom",
+    "tags": ["data", "history"]
+  },
+  {
+    "id": "lovelace-poetical",
+    "text": "The analytical engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves.",
+    "author": "Ada Lovelace",
+    "source": "Notes on the Analytical Engine",
+    "year": 1843,
+    "category": "philosophy",
+    "tags": ["history", "poetry", "foundations"]
+  },
+  {
+    "id": "lovelace-imagination",
+    "text": "Imagination is the Discovering Faculty, pre-eminently. It is that which penetrates into the unseen worlds around us.",
+    "author": "Ada Lovelace",
+    "year": 1841,
+    "category": "wisdom",
+    "tags": ["imagination", "discovery"]
+  },
+  {
+    "id": "turing-machine",
+    "text": "We may hope that machines will eventually compete with men in all purely intellectual fields.",
+    "author": "Alan Turing",
+    "source": "Computing Machinery and Intelligence",
+    "year": 1950,
+    "category": "ai",
+    "tags": ["ai", "machines", "classic"]
+  },
+  {
+    "id": "sussman-why",
+    "text": "If you can't explain why your code works, you don't understand it.",
+    "author": "Gerald Sussman",
+    "year": 1986,
+    "category": "wisdom",
+    "tags": ["understanding", "communication"]
+  },
+  {
+    "id": "harper-no-silver",
+    "text": "There is no silver bullet.",
+    "author": "Fred Brooks",
+    "source": "No Silver Bullet",
+    "year": 1986,
+    "category": "wisdom",
+    "tags": ["brooks", "classic", "estimation"]
+  },
+  {
+    "id": "mccarthy-programs",
+    "text": "He who refuses to write maintainable code is doomed to rewrite it.",
+    "author": "Community lore",
+    "year": 2000,
+    "category": "wisdom",
+    "tags": ["maintenance", "folklore"]
+  },
+  {
+    "id": "bray-json",
+    "text": "JSON is the serialization format of the internet.",
+    "author": "Tim Bray",
+    "year": 2014,
+    "category": "architecture",
+    "tags": ["json", "web"]
+  },
+  {
+    "id": "wirth-systematic",
+    "text": "Software engineering must be based on principles of programming, not on principles of business management.",
+    "author": "Niklaus Wirth",
+    "year": 1995,
+    "category": "philosophy",
+    "tags": ["engineering", "principles"]
+  },
+  {
+    "id": "wheeler-all",
+    "text": "Any problem in computer science can be solved with another level of indirection.",
+    "author": "David Wheeler",
+    "year": 1970,
+    "category": "architecture",
+    "tags": ["indirection", "classic"]
+  },
+  {
+    "id": "kay-computer",
+    "text": "The computer is a medium, not a tool.",
+    "author": "Alan Kay",
+    "year": 1980,
+    "category": "philosophy",
+    "tags": ["medium", "vision"]
+  },
+  {
+    "id": "iverson-thinking",
+    "text": "The notation we use influences the way we think.",
+    "author": "Kenneth Iverson",
+    "year": 1980,
+    "category": "philosophy",
+    "tags": ["notation", "thinking"]
+  },
+  {
+    "id": "hopper-arrogance",
+    "text": "A ship in port is safe, but that's not what ships are built for.",
+    "author": "Grace Hopper",
+    "year": 1980,
+    "category": "wisdom",
+    "tags": ["risk", "adventure"]
+  },
+  {
+    "id": "eckert-eniac",
+    "text": "We spent a great deal of time getting things to work.",
+    "author": "J. Presper Eckert",
+    "year": 1946,
+    "category": "wisdom",
+    "tags": ["history", "eniac"]
+  },
+  {
+    "id": "kay-read",
+    "text": "If you read one book that's been read by millions, you'll be one of millions. If you read a book that almost nobody has read, you might just learn something new.",
+    "author": "Alan Kay",
+    "year": 2004,
+    "category": "wisdom",
+    "tags": ["reading", "learning"]
+  },
+  {
+    "id": "dijkstra-humility",
+    "text": "The question of whether computers can think is like the question of whether submarines can swim.",
+    "author": "Edsger W. Dijkstra",
+    "year": 1970,
+    "category": "ai",
+    "tags": ["ai", "humor", "metaphor"]
+  },
+  {
+    "id": "tao-of-programming",
+    "text": "A well-written program is its own heaven; a poorly-written program is its own hell.",
+    "author": "Geoffrey James",
+    "source": "The Tao of Programming",
+    "year": 1987,
+    "category": "philosophy",
+    "tags": ["tao", "craft"]
+  },
+  {
+    "id": "duke-test",
+    "text": "Write tests as if the next person to maintain the code is a violent psychopath who knows where you live.",
+    "author": "Community lore",
+    "year": 2008,
+    "category": "humor",
+    "tags": ["testing", "humor"]
+  },
+  {
+    "id": "schmidt-weekend",
+    "text": "Programs are like wet cement: anything can be written, but some things can never be unwritten.",
+    "author": "Community lore",
+    "year": 2010,
+    "category": "wisdom",
+    "tags": ["craft", "permanence"]
+  },
+  {
+    "id": "dij-late",
+    "text": "If debugging is the process of removing bugs, then programming must be the process of putting them in.",
+    "author": "Edsger W. Dijkstra",
+    "year": 1972,
+    "category": "humor",
+    "tags": ["debugging", "bugs", "humor"]
+  },
+  {
+    "id": "rail-attr",
+    "text": "There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies.",
+    "author": "C.A.R. Hoare",
+    "year": 1980,
+    "category": "simplicity",
+    "tags": ["design", "simplicity"]
+  },
+  {
+    "id": "kay-future-kids",
+    "text": "We make tools, and the tools shape us. Our tools shape our children.",
+    "author": "Alan Kay",
+    "year": 1998,
+    "category": "philosophy",
+    "tags": ["tools", "future", "vision"]
+  },
+  {
+    "id": "carmack-vr",
+    "text": "The cost of adding a feature isn't just the time it takes to code it. The cost is the maintenance, documentation, and mental overhead for every future developer.",
+    "author": "John Carmack",
+    "year": 2015,
+    "category": "architecture",
+    "tags": ["features", "maintenance", "design"]
+  },
+  {
+    "id": "kent-tdd",
+    "text": "Test-Driven Development is a way of managing fear. Fear makes you hesitate. Fear makes you tentative. Fear makes you want to communicate less.",
+    "author": "Kent Beck",
+    "source": "Test-Driven Development",
+    "year": 2002,
+    "category": "programming",
+    "tags": ["tdd", "fear", "psychology"]
+  },
+  {
+    "id": "hunt-pragmatic-2",
+    "text": "A pragmatic programmer always questions their own assumptions.",
+    "author": "Andy Hunt",
+    "year": 1999,
+    "category": "wisdom",
+    "tags": ["assumptions", "pragmatic"]
+  },
+  {
+    "id": "leisurely-debugging",
+    "text": "When in doubt, print it out. When not in doubt, print it out anyway.",
+    "author": "Community lore",
+    "year": 1990,
+    "category": "debugging",
+    "tags": ["debugging", "printf", "folklore"]
+  },
+  {
+    "id": "kernighan-clever",
+    "text": "Everyone knows that debugging is twice as hard as writing a program in the first place.",
+    "author": "Brian Kernighan",
+    "source": "The Elements of Programming Style",
+    "year": 1978,
+    "category": "debugging",
+    "tags": ["debugging", "cleverness"]
+  },
+  {
+    "id": "tao-perfection",
+    "text": "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away.",
+    "author": "Antoine de Saint-Exupéry",
+    "year": 1939,
+    "category": "simplicity",
+    "tags": ["perfection", "minimalism", "classic"]
+  },
+  {
+    "id": "knuth-art",
+    "text": "The enjoyment of one's tools is an essential ingredient of successful work.",
+    "author": "Donald Knuth",
+    "source": "The Art of Computer Programming",
+    "year": 1968,
+    "category": "wisdom",
+    "tags": ["tools", "craft", "enjoyment"]
+  },
+  {
+    "id": "kay-context",
+    "text": "Context is worth 80 IQ points.",
+    "author": "Alan Kay",
+    "year": 2003,
+    "category": "wisdom",
+    "tags": ["context", "intelligence"]
+  },
+  {
+    "id": "dijkstra-elegance",
+    "text": "Elegance is not a dispensable luxury but a quality that decides between success and failure.",
+    "author": "Edsger W. Dijkstra",
+    "year": 1993,
+    "category": "simplicity",
+    "tags": ["elegance", "design"]
+  },
+  {
+    "id": "brin-data",
+    "text": "Data is the new oil.",
+    "author": "Clive Humby",
+    "year": 2006,
+    "category": "philosophy",
+    "tags": ["data", "industry"]
+  },
+  {
+    "id": "edsgar-beauty",
+    "text": "Beauty is our business.",
+    "author": "Edsger W. Dijkstra",
+    "source": "Beauty is our business, Festschrift",
+    "year": 1990,
+    "category": "philosophy",
+    "tags": ["beauty", "craft"]
+  },
+  {
+    "id": "raymond-open-source",
+    "text": "Open source is a development methodology; free software is a social movement.",
+    "author": "Eric S. Raymond",
+    "year": 2008,
+    "category": "philosophy",
+    "tags": ["opensource", "foss", "movement"]
+  },
+  {
+    "id": "lessig-code",
+    "text": "Code is law.",
+    "author": "Lawrence Lessig",
+    "source": "Code and Other Laws of Cyberspace",
+    "year": 1999,
+    "category": "philosophy",
+    "tags": ["governance", "internet", "classic"]
+  },
+  {
+    "id": "berners-lee-web",
+    "text": "This is for everyone.",
+    "author": "Tim Berners-Lee",
+    "source": "London 2012 Olympics opening ceremony",
+    "year": 2012,
+    "category": "philosophy",
+    "tags": ["web", "inclusion", "vision"]
+  },
+  {
+    "id": "berners-lee-decentralized",
+    "text": "The Web does not just connect machines, it connects people.",
+    "author": "Tim Berners-Lee",
+    "year": 1999,
+    "category": "philosophy",
+    "tags": ["web", "people", "connection"]
+  },
+  {
+    "id": "kay-scale",
+    "text": "The best way to predict the future is to invent it. The second-best way is to fund it.",
+    "author": "Alan Kay",
+    "year": 1980,
+    "category": "wisdom",
+    "tags": ["future", "innovation"]
+  },
+  {
+    "id": "hickey-spec",
+    "text": "Specifications are a kind of code. They should be treated with the same care.",
+    "author": "Rich Hickey",
+    "year": 2016,
+    "category": "programming",
+    "tags": ["specs", "clojure", "design"]
+  },
+  {
+    "id": "grady-booch-architecture",
+    "text": "Software architecture is the set of design decisions that, if made incorrectly, may cause a project to fail.",
+    "author": "Grady Booch",
+    "year": 2005,
+    "category": "architecture",
+    "tags": ["architecture", "decisions"]
+  },
+  {
+    "id": "hopper-information",
+    "text": "One accurate measurement is worth a thousand expert opinions.",
+    "author": "Grace Hopper",
+    "year": 1978,
+    "category": "wisdom",
+    "tags": ["measurement", "data"]
+  },
+  {
+    "id": "uncle-bob-tdd",
+    "text": "The three laws of TDD: 1) You may not write production code until you have written a failing unit test. 2) You may not write more of a unit test than is sufficient to fail. 3) You may not write more production code than is sufficient to pass the failing test.",
+    "author": "Robert C. Martin",
+    "source": "Clean Code",
+    "year": 2008,
+    "category": "programming",
+    "tags": ["tdd", "laws", "testing"]
+  },
+  {
+    "id": "wheeler-invention",
+    "text": "If you haven't found the bug, you haven't found the bug.",
+    "author": "David Wheeler",
+    "year": 1970,
+    "category": "debugging",
+    "tags": ["debugging", "patience"]
+  },
+  {
+    "id": "sussman-programs",
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute.",
+    "author": "Gerald Sussman",
+    "year": 1985,
+    "category": "programming",
+    "tags": ["readability", "sicp"]
+  },
+  {
+    "id": "kernighan-tools",
+    "text": "The only way to learn a new programming language is by writing programs in it.",
+    "author": "Brian Kernighan",
+    "source": "The C Programming Language",
+    "year": 1978,
+    "category": "wisdom",
+    "tags": ["learning", "practice"]
+  }
+]

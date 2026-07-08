@@ -1,0 +1,62 @@
+{
+  "name": "devquotes",
+  "version": "0.1.0",
+  "description": "A curated, open-source collection of inspirational developer quotes with a beautiful CLI and typed API. Zero runtime dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Cryptoteep <https://github.com/Cryptoteep>",
+  "homepage": "https://github.com/Cryptoteep/devquotes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cryptoteep/devquotes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cryptoteep/devquotes/issues"
+  },
+  "keywords": [
+    "quotes",
+    "developer",
+    "cli",
+    "inspiration",
+    "programming",
+    "computer-science",
+    "terminal",
+    "motivational",
+    "curated"
+  ],
+  "bin": {
+    "devquotes": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./data/quotes.json": "./dist/data/quotes.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "cli": "tsx src/cli.ts"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
