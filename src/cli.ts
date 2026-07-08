@@ -30,13 +30,12 @@ import {
   listAuthors,
   listByCategory,
   renderQuoteCard,
-  renderQuoteHighlight,
   renderQuoteLine,
   renderQuoteList,
   searchQuotes,
   VERSION,
 } from './index.js';
-import type { ExportFormat, QuoteCategory } from './types.js';
+import type { ExportFormat, Quote, QuoteCategory } from './types.js';
 
 interface ParsedArgs {
   command: string;
@@ -132,11 +131,11 @@ ${ansi.gray('Made with care. MIT licensed.')}
 
 function toCategories(value: string | boolean | undefined): QuoteCategory[] {
   if (!value || typeof value === 'boolean') return [];
-  const known = new Set(CATEGORIES.map((c) => c.id));
+  const known = new Set<string>(CATEGORIES.map((c) => c.id));
   return value
     .split(',')
     .map((s) => s.trim().toLowerCase())
-    .filter((s): s is QuoteCategory => known.has(s));
+    .filter((s) => known.has(s)) as QuoteCategory[];
 }
 
 function toString(value: string | boolean | undefined): string | undefined {
@@ -156,10 +155,10 @@ function fail(message: string): never {
   process.exit(1);
 }
 
-function getCorpus(flags: Record<string, string | boolean>): typeof getAllQuotes extends () => infer Q ? Q[] : never {
+function getCorpus(flags: Record<string, string | boolean>): Quote[] {
   const categories = toCategories(flags.category);
   const author = toString(flags.author);
-  let quotes = getAllQuotes();
+  let quotes: Quote[] = [...getAllQuotes()];
   if (categories.length) {
     quotes = quotes.filter((q) => categories.includes(q.category));
   }
@@ -167,7 +166,7 @@ function getCorpus(flags: Record<string, string | boolean>): typeof getAllQuotes
     const a = author.toLowerCase();
     quotes = quotes.filter((q) => q.author.toLowerCase().includes(a));
   }
-  return quotes as unknown as ReturnType<typeof getCorpus>;
+  return quotes;
 }
 
 function main(): void {
@@ -198,7 +197,7 @@ function main(): void {
     }
 
     case 'today': {
-      const quote = getQuoteOfTheDay({
+      const quote = getQuoteOfTheDay(new Date(), {
         category: toCategories(flags.category),
         author: toString(flags.author),
       });

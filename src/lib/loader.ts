@@ -9,11 +9,6 @@ const ALL_QUOTES: readonly Quote[] = Object.freeze(
 /** Index of id → quote for O(1) lookup. */
 const BY_ID = new Map<string, Quote>(ALL_QUOTES.map((q) => [q.id, q]));
 
-/** Set of all distinct authors (lowercased) used for quick validation. */
-const AUTHORS = new Set(
-  ALL_QUOTES.map((q) => q.author.toLowerCase()),
-);
-
 /**
  * Return every curated quote. The returned array is frozen; mutate a copy
  * if you need to.
